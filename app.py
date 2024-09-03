@@ -258,9 +258,6 @@ def update_preferences():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
-    # Start ngrok
-    url = ngrok.connect(5000)
-    print(f"Public URL: {url}")
-    app.run(debug=True, use_reloader=False, host="0.0.0.0", port=5000)
+    app.run(debug=True, use_reloader=False, host="0.0.0.0")
 
  
