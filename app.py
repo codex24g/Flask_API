@@ -12,7 +12,6 @@ from tensorflow.keras.layers import Dense, GlobalAveragePooling2D
 from tensorflow.keras.models import Model
 from tensorflow.keras.optimizers import Adam
 from threading import Thread
-from pyngrok import ngrok
 
 # Paths and parameters
 train_dir = 'train'
